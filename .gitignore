@@ -1,0 +1,12 @@
+*.zip
+
+bcd-gen
+bcd-gen.d
+
+bcd-verifier.bin
+bcd-verifier.h
+bcd-verifier.p
+bcd-verifier.lst
+
+data/bcd-table.bin
+

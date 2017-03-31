@@ -1,0 +1,11 @@
+*.bin		binary
+
+*.cc		text diff=cpp
+*.hh 		text diff=cpp
+
+*.asm 		text
+
+Makefile	text
+
+LICENSE		text
+
