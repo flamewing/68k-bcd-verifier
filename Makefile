@@ -90,7 +90,7 @@ bcd-verifier.bin: data/bcd-table.bin $(SRCSASM)
 	p2bin -r 0-\$$ bcd-verifier.p
 
 bcd-gen: $(SOURCES)
-	g++ -O3 -s -Wall -Wextra -pedantic -Werror -MMD -MP -o $@ $(SOURCES)
+	g++ -O3 -s -Wall -Wextra -pedantic -Werror -std=c++11 -MMD -MP -o $@ $(SOURCES)
 
 # Dependencies
 -include $(DEPEND)
