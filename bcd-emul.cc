@@ -16,6 +16,7 @@
 #include "bcd-emul.hh"
 #include <iomanip>
 #include <cstdint>
+#include <ostream>
 
 using namespace std;
 
