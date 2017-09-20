@@ -14,7 +14,7 @@
 ; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ; Helper macro
 testOp macro oper,flags,dst,src
-	move.w	d3,d4                      ; Copy destination operand to d4
+	move.b	d3,d4                      ; Copy destination operand to d4
 	moveq	#flags,d6                  ; Set initial condition codes
 	move.w	d6,ccr                     ; Set initial condition codes
     if "src"<>""
@@ -38,8 +38,9 @@ TestBCDOps:
 	moveq	#0,d6
 	move.l	d6,(a2)                    ; Failure count: flags
 	move.l	d6,4(a2)                   ; Failure count: results
-	moveq	#0,d2                      ; Source operand
 	move.w	#WHITE|'a',(Current_Op).w  ; We are doing abcd
+	move.l	#$a5a5a500,d2              ; Source operand with MSB bits set
+	move.l	#$5a5a5a5a,d4              ; to trigger bugs in emulators
 
 .abcd_outer_loop:
 	moveq	#0,d3                      ; Destination operand
