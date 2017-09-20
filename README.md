@@ -26,7 +26,7 @@ For reference, the original BCD data I used to reverse-engineer the operations w
 
 Considerations
 ----
-For **abcd** and **sbcd** instructions, there are 256 possible values for each input register. They are also sensitive to **X** and **Z** flags. This gives a total of 256*256*4 = 262144 input combinations for each of **abcd** and **sbcd**.
+For **abcd** and **sbcd** instructions, there are 256 possible values for each input register. They are also sensitive to **X** and **Z** flags. This gives a total of 256 x 256 x 4 = 262144 input combinations for each of **abcd** and **sbcd**.
 
 One NTSC frame in the Sega Genesis corresponds to approximately 128000 cycles of the main 68000 CPU. Thus, every single cycle that the inner loop takes corresponds to one more NTSC frame.
 
