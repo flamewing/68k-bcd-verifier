@@ -26,33 +26,33 @@ Then load the ROM in your favorite emulator and let me know that it fails the te
 Emulator Hall of Fame
 ====
 These emulators pass the test:
-BlastEm
-BizHawk
-Genesis Plus GX
-Higan
-Mednafen
+- BlastEm
+- BizHawk
+- Genesis Plus GX
+- Higan
+- Mednafen
 
 Emulator Hall of Shame:
 ====
 These emulators fail the test:
-AGES
-DGEN SDL
-Exodus
-GENS, and all of its derivatives. (Debugens, GENS32, GENS+ GENS GS, Recording, etc...)
-GENSX
-Genadrive
-Genem
-Generator32
-Genesis Plus
-Genital32
-Kega Fusion
-Megasis
-Morphgear
-Picodrive
-Regen
-Retrodrive
-SegaEmu
-SmartGear
-Vegas
-Xe
-Xega
+- AGES
+- DGEN SDL
+- Exodus
+- GENS, and all of its derivatives. (Debugens, GENS32, GENS+ GENS GS, Recording, etc...)
+- GENSX
+- Genadrive
+- Genem
+- Generator32
+- Genesis Plus
+- Genital32
+- Kega Fusion
+- Megasis
+- Morphgear
+- Picodrive
+- Regen
+- Retrodrive
+- SegaEmu
+- SmartGear
+- Vegas
+- Xe
+- Xega
