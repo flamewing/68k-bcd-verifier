@@ -2,21 +2,6 @@ Flamewing's BCD Test ROM
 ====
 This is a test ROM for the Sega Genesis. Its purpose is to exhaustively test every single permutation of input for the 3 packed Binary Coded Decimal (BCD) instructions available in the Motorola 68000 processor and record any deviations from real hardware.
 
-At present, the following emulators pass the test:
-
-* [BlastEm](https://www.retrodev.com/blastem/)
-
-Whereas the following emulators fail the test:
-
-* [Gens rerecording](https://github.com/TASVideos/gens-rerecording)
-* [Genesis Plus GX](https://github.com/ekeeke/Genesis-Plus-GX)
-* [BizHawk](https://github.com/TASVideos/BizHawk)
-* [Kega Fusion](http://www.carpeludum.com/kega-fusion/)
-* [Regen](http://aamirm.hacking-cult.org/www/regen.html)
-* [Exodus](http://www.exodusemulator.com/)
-
-And probably lots more I didn't bother to test.
-
 Real hardware naturally passes all tests; this has been verified on:
 
 * Model 1 Sega Genesis
@@ -37,3 +22,37 @@ How to use this
 To build the ROM you will need a Unix-based OS. You will need [AS](http://john.ccac.rwth-aachen.de:8000/as/), g++ and build tools. Build AS, install somewhere in your path, then type 'make' to build the ROM.
 
 Then load the ROM in your favorite emulator and let me know that it fails the test, so I can add it to the list.
+
+Emulator Hall of Fame
+====
+These emulators pass the test:
+BlastEm
+BizHawk
+Genesis Plus GX
+Higan
+Mednafen
+
+Emulator Hall of Shame:
+====
+These emulators fail the test:
+AGES
+DGEN SDL
+Exodus
+GENS, and all of its derivatives. (Debugens, GENS32, GENS+ GENS GS, Recording, etc...)
+GENSX
+Genadrive
+Genem
+Generator32
+Genesis Plus
+Genital32
+Kega Fusion
+Megasis
+Morphgear
+Picodrive
+Regen
+Retrodrive
+SegaEmu
+SmartGear
+Vegas
+Xe
+Xega
