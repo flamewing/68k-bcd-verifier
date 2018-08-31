@@ -28,6 +28,7 @@ Emulator Hall of Fame
 These emulators pass the test:
 - BlastEm
 - BizHawk
+- Exodus
 - Genesis Plus GX
 - Higan
 - Mednafen
@@ -37,7 +38,6 @@ Emulator Hall of Shame:
 These emulators fail the test:
 - AGES
 - DGEN SDL
-- Exodus
 - GENS, and all of its derivatives. (Debugens, GENS32, GENS+ GENS GS, Recording, etc...)
 - GENSX
 - Genadrive
